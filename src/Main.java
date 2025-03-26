@@ -27,7 +27,7 @@ public class Main {
 
             System.out.println("part ii -------------".toUpperCase());
 
-            var client2 = new BankAccountRecord("paulo", EnumAccountType.SAVING, "3500");
+            var client2 = new BankAccountRecord("paulo", EnumAccountType.CHECKING, "3500");
 
             bank.newBankAccount(client2);
 
