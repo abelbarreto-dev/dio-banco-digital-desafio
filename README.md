@@ -37,5 +37,12 @@ própria instituição).”
 * Não existe restrição sobre transferência entre tipos de conta bancárias, (saving ou checking)
 que é o mesmo que *conta poupança* ou *conta corrente* em português.
 
+## Curiosidades
+
+* Uilizo um java.Record para inferir os dados, no mesmo já existe validações dentro de um
+construtor compacto. [Ver aqui](src/com/abel/bank/records/BankAccountRecord.java).
+* Utilizo a integração com exceção genérica que aponta qual incossitência em linguagem
+amigável ao usuário.
+
 ---
 *That's All Folks*
